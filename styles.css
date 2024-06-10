@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: auto;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +21,7 @@
   nav ul {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
   }
   
   nav ul li {
@@ -32,6 +32,8 @@
     color: #fff;
     text-decoration: none;
     font-size: 16px;
+    text-align: end;
+    margin: 15px;
   }
   
   nav ul li a:hover {
@@ -66,7 +68,7 @@
   #about,
   #services,
   #contact {
-    padding: 20px;
+    padding: 10px;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -78,6 +80,7 @@
   }
   
   footer {
+    width: 100%;
     background-color: #fb254c;
     padding: 10px 0;
     text-align: center;
@@ -122,12 +125,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 30%;
+    left: 50%;
 }
 
 form {
     display: flex;
-    width: 50%;
+    width: 100%;
     max-width: 400px;
     border: 2px solid #f7f8fa;
     border-radius: 50px;
@@ -158,7 +162,6 @@ form {
 
 /*botao texto*/
 .container {
-  text-align: center;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);

@@ -1,4 +1,3 @@
-//*botao texto*//
 document.getElementById('botao').addEventListener('click', function() {
     var texto = document.getElementById('receita');
     if (texto.style.display === 'none') {
@@ -20,11 +19,5 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}    
   slides[slideIndex-1].style.display = "block";  
-  setTimeout(showSlides, 3000); // Muda a imagem a cada 3 segundos
+  setTimeout(showSlides, 3000);
 }
-
-document.getElementById('myButton').addEventListener('click', function() {
-    var outputText = document.getElementById('outputText');
-    outputText.textContent = 'Texto exibido ao clicar no botão!';
-    outputText.style.display = 'block';
-});
