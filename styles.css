@@ -35,6 +35,7 @@
     text-align: end;
     margin: 15px;
   }
+
   
   nav ul li a:hover {
     text-decoration: underline;
@@ -88,7 +89,6 @@
   }
   
   
-  /*imagens*/
   
   
   * {box-sizing: border-box;}
@@ -118,8 +118,6 @@
     to {opacity: 1}
   }
   
-  
-/*barra de pesquisa*/
 
 .search-container {
     display: flex;
@@ -160,13 +158,6 @@ form {
     background-color: #fb254c;
 }
 
-/*botao texto*/
-.container {
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  border-radius: 8px;
-}
 button {
   padding: 12px 24px;
   font-size: 16px;
